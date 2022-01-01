@@ -91,3 +91,5 @@ This challenge is completely free. Please share it with anyone who will find it 
 
 **Have fun building!** 🚀
 # 3-column-preview
+
+This challege answer is avaiable in:https://inspiring-kalam-08d8fe.netlify.app/
