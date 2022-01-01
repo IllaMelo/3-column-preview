@@ -42,7 +42,7 @@ a{
     text-align: center;
     background-color: var(--Very-light-gray);
     font-size: 18px;
-    width: 55%;
+    width: 10em;
   
    
 }
@@ -60,12 +60,13 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 100vh;
-    width: 100%;
-    
+  
     
 }
-
+main{
+    
+    justify-content: center;
+}
 main div{
     padding: 2rem 3rem 3rem 3rem;
 
@@ -111,7 +112,7 @@ main div{
 
 
 
-@media (min-width: 901px){
+@media (min-width: 850px){
     .card-one{
         border-radius: 0.5rem 0 0 0.5rem;
 
@@ -123,12 +124,10 @@ main div{
     main{
     
         display: flex;
+        box-sizing:border-box;
         justify-content: center;
-        min-width: 1000px;
-        min-height: 600px;
-        margin: auto;
-        padding: auto;
-        max-width: 1200px;
+        margin: 5rem;
+        
     
     }
     main div{
@@ -137,10 +136,11 @@ main div{
         justify-content: center;
         
     }
+    
 
 }
 
-@media (max-width: 900px){
+@media (max-width: 849px){
    
     main{
         
