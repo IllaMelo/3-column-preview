@@ -42,7 +42,7 @@ a{
     text-align: center;
     background-color: var(--Very-light-gray);
     font-size: 18px;
-    width: 10em;
+    width: 12em;
   
    
 }
@@ -60,6 +60,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-color: var(--Very-light-gray);
   
     
 }
@@ -121,12 +122,18 @@ main div{
     .card-three{
         border-radius: 0 0.5rem 0.5rem 0;
     }
+    body{
+        justify-content: center;
+        display: flex;
+    }
     main{
     
         display: flex;
         box-sizing:border-box;
         justify-content: center;
-        margin: 5rem;
+        margin: 10em auto;
+        width: 1000px;
+        
         
     
     }
@@ -164,4 +171,5 @@ main div{
     }
 
 }
+
 
