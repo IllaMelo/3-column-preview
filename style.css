@@ -35,15 +35,14 @@ p{
 }
 a{
     border-radius: 2rem;
-    padding: 1rem 2rem 1rem 2rem;
+    padding: 1rem 1rem 1rem 1rem;
     border: 2px solid hsl(0, 0%, 95%);
     cursor: pointer;
     text-decoration: none;
     text-align: center;
     background-color: var(--Very-light-gray);
     font-size: 18px;
-    width: 12em;
-  
+    width: 9rem;
    
 }
 a:hover{
@@ -131,12 +130,12 @@ main div{
         display: flex;
         box-sizing:border-box;
         justify-content: center;
-        margin: 10em auto;
-        width: 1000px;
+        margin: 10rem auto;
+        width: 880px;
+        height: 600px;
         
-        
-    
     }
+    
     main div{
         display: inline-flex;
         flex-direction: column;
@@ -171,5 +170,3 @@ main div{
     }
 
 }
-
-
